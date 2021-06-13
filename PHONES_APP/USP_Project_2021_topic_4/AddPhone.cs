@@ -119,8 +119,7 @@ namespace USP_Project_2021_topic_4
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // ViewPhones form = new ViewPhones();
-            //form.Show();
+      
         }
 
         private void AddPhone_Load(object sender, EventArgs e)
@@ -149,28 +148,22 @@ namespace USP_Project_2021_topic_4
 
         private void търсиТелефонПоОпределенФилтърToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           // SearchPhoneByBrand form = new SearchPhoneByBrand();
-           // form.Show();
+   
         }
 
         private void търсиТелефонПоГодинаToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           // SearchPhoneByYear form = new SearchPhoneByYear();
-           // form.Show();
 
         }
 
         private void търсиТелеофонПоКамераToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           // SearchPhoneByCamera form = new SearchPhoneByCamera();
-           // form.Show();
-
+  
         }
 
         private void търсиТелефонПоRAMToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           // SearchPhoneByRam form = new SearchPhoneByRam();
-           // form.Show();
+     
         }
 
        
