@@ -47,9 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>
-    </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,11 +65,50 @@
     <Compile Include="AddPhone.Designer.cs">
       <DependentUpon>AddPhone.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditPhones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPhones.Designer.cs">
+      <DependentUpon>EditPhones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchPhoneByBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPhoneByBrand.Designer.cs">
+      <DependentUpon>SearchPhoneByBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPhoneByCamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPhoneByCamera.Designer.cs">
+      <DependentUpon>SearchPhoneByCamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPhoneByRam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPhoneByRam.Designer.cs">
+      <DependentUpon>SearchPhoneByRam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPhoneByYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPhoneByYear.Designer.cs">
+      <DependentUpon>SearchPhoneByYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPhones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPhones.Designer.cs">
+      <DependentUpon>ViewPhones.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddPhone.resx">
       <DependentUpon>AddPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPhones.resx">
+      <DependentUpon>EditPhones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +120,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SearchPhoneByBrand.resx">
+      <DependentUpon>SearchPhoneByBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPhoneByCamera.resx">
+      <DependentUpon>SearchPhoneByCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPhoneByRam.resx">
+      <DependentUpon>SearchPhoneByRam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPhoneByYear.resx">
+      <DependentUpon>SearchPhoneByYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPhones.resx">
+      <DependentUpon>ViewPhones.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
